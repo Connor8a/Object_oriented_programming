@@ -1,9 +1,16 @@
 class Vehicle:
-    pass
+    
+    def __init__(self, nm, color, num_wheels, speed):
+        self.name = nm
+        self.color = color
+        self.num_wheels = num_wheels
+        self.speed = speed
 
-bug_object = Vehicle() #object of cehicle class -- instnce of vechile class
-turtle_object = Vehicle()
-rover_object = Vehicle()
+
+
+bug_object = Vehicle("beetle", "yellow", 4, 1) #object of cehicle class -- instnce of vechile class
+turtle_object = Vehicle("turtlebot", "green", 2, 5)
+rover_object = Vehicle("rover", "purple", 4, 25)
 
 bug_object.color = "yellow"
 bug_object.num_wheels = 4

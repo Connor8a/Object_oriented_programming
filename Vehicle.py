@@ -15,6 +15,9 @@ print()
 print()
 print()
 class Vehicle:
+
+    type = "ground"
+    propulsion="battery"
     
     def __init__(self, nm, color, num_wheels, speed):
         self.name = nm
@@ -24,6 +27,8 @@ class Vehicle:
         #self.type = ground
     def print_details(self):
         print( self.name,'is',self.color, 'and is able to to drive', self.speed, 'mph')
+    def pain_vehicle(self, newcolor):
+        self.color = newcolor
 
 
 
@@ -34,6 +39,8 @@ rover_object = Vehicle("rover", "purple", 4, 25)
 bug_object.print_details()
 turtle_object.print_details()
 rover_object.print_details()
+
+bug_object.paint_vechile()
 
 
 # drone = Vehicle("droney", "red", 0, 50)

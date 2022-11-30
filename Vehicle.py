@@ -12,22 +12,6 @@ bug_object = Vehicle("beetle", "yellow", 4, 1) #object of cehicle class -- instn
 turtle_object = Vehicle("turtlebot", "green", 2, 5)
 rover_object = Vehicle("rover", "purple", 4, 25)
 
-bug_object.color = "yellow"
-bug_object.num_wheels = 4
-# speed 1 mph
-bug_object.speed = 1
-
-
-turtle_object.color = "green"
-turtle_object.num_wheels = 2
-# speed 5 mph
-turtle_object.speed = 5
-
-
-rover_object.color = "purple"
-rover_object.num_wheels = 4
-# speed 25 mph 
-rover_object.speed = 25
 print()
 print()
 print()

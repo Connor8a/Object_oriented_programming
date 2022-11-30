@@ -21,7 +21,22 @@ rover_object.color = "purple"
 rover_object.num_wheels = 4
 # speed 25 mph 
 rover_object.speed = 25
-
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
 print('This vehicle is',bug_object.color, 
 'and is able to drive', bug_object.speed, 'mph')
 print('This vehicle is',turtle_object.color, 

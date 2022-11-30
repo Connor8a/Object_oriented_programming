@@ -9,5 +9,5 @@ bug_object.print_details()
 turtle_object.print_details()
 rover_object.print_details()
 
-bug_object.paint_vechile("blue")
+bug_object.paint_vehicle("blue")
 bug_object.print_details()

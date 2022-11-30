@@ -27,7 +27,7 @@ class Vehicle:
         #self.type = ground
     def print_details(self):
         print( self.name,'is',self.color, 'and is able to to drive', self.speed, 'mph')
-    def pain_vehicle(self, newcolor):
+    def paint_vehicle(self, newcolor):
         self.color = newcolor
 
 

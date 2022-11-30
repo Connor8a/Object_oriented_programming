@@ -23,7 +23,7 @@ class Vehicle:
         self.speed = speed
         #self.type = ground
     def print_details(self):
-        print('This vechile is',self.color, 'and is able to to drive', self.speed, 'mph')
+        print( self.name,'is',self.color, 'and is able to to drive', self.speed, 'mph')
 
 
 
